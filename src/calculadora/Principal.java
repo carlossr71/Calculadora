@@ -18,8 +18,7 @@ public class Principal {
 	      System.out.println("2 Restar");
 	      System.out.println("3 Multiplicar");
 	      System.out.println("4 Dividir");
-	      System.out.println("5 Potencia");
-	      System.out.println("6 Salir");
+	      System.out.println("5 Salir");
 	      opcion = sc.nextInt(); 
 	      switch (opcion) {
 	        case 1:
@@ -39,16 +38,13 @@ public class Principal {
 	          System.out.println("El resultado de la división es: " + resultado);
 	          break;
 	        case 5:
-	          resultado=o.potenciacion();
-	          System.out.println("El resultado de la potenciación es: " + resultado);
-	          break;
-	        case 6:
 	          continuar = false;
 	          break;
 	        default:
 	          System.out.println("Opción inválida");
 	          break;
-	      }} 
+	      }
+	    } 
 	    sc.close();
 	  }}	
 
