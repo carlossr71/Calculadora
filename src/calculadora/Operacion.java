@@ -40,5 +40,9 @@ public class Operacion {
 	  public double division() {
 	    return a / b;
 	  }
+	  
+	  public double potenciacion() {
+		return Math.pow(a, b);
+		}
 	}
 
